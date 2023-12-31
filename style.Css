@@ -1,0 +1,55 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin:0;
+
+}
+
+body{
+display: flex;
+background-color: #d0b0ec;
+justify-content: center;
+align-items: center;
+flex: 1 1 0;
+}
+
+.white-background{
+
+background-color:#fff;
+margin:30% 5%;
+height: 570px;
+width: 400px;
+text-align: center;
+padding: 2px;
+border-radius: 15px;
+
+}
+
+.white-background img{
+flex-grow: 1;
+max-width: 93%;
+max-height: 80%;
+margin:15px auto;
+border-radius: 15px;
+}
+.white-background h1{
+    margin: 15px 25px;
+    padding: 5px;
+    font-size: 26px;
+    flex-grow: 1;
+}
+
+.white-background p{
+    color: #aca4a4;
+    font-size: small;
+    font-weight:lighter;
+    margin: 25px 15%;
+}
+
+
+@media screen and (min-width:666px){
+    .white-background{
+        background-color:#fff;
+        margin:150px auto;
+        }
+}
